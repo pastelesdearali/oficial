@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Contacto</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="img/logo.png" type="image/x-icon">
+    </head>
+    <body>
+        <!-- Nombre de la Página -->
+        <header class="encabezado-inicio">
+            <img src="img/logo.png" alt="Logo de Los Pasteles de Arali" class="logo-inicio">
+            <h1 class="nombre-pagina-inicio">LOS PASTELES DE ARALI</h1>
+        </header>
+
+        <!-- Navegación -->
+        <nav class="barra-navegacion-inicio">
+            <ul class="menu-navegacion-inicio">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contáctanos</a></li>
+            </ul>
+        </nav>
+
+        <section class="video-principal-nosotros">
+            <div class="contenedor-video-nosotros">
+                <video class="video-nosotros" autoplay muted loop>
+                    <source src="video/contacto.mp4" type="video/mp4">
+                    Tu navegador no soporta este formato de video.
+                </video>
+                <div class="texto-sobre-video">
+                    <h2>Contáctanos</h2>
+                    <p>Siempre atentas a tus llamados</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="contenedor_contacto">
+            <div class="info_contacto">
+                <p>¡Nos encantaría saber de ti! En nuestra pastelería, cada detalle cuenta y tu opinión es muy importante. Si tienes alguna duda, sugerencia o deseas realizar un pedido especial, no dudes en contactarnos. Estamos aquí para hacer de tu experiencia algo dulce y memorable.</p>
+                <ul>
+                    <li><strong>Whatsapp:</strong> +51 945 494 040</li>
+                    <li><strong>Horario de atención:</strong> Lunes a Viernes de 10:00 a 17:00</li>
+                </ul>
+                <div class="imagen_contacto">
+                    <img src="img/cont1.jpg" alt="Imagen de contacto">
+                    <div class="caja_negra_contacto">PASION Y DULZURA</div>
+                </div>
+            </div>
+
+            <div class="formulario_contacto">
+                <h2>Escríbenos</h2>
+                <form action="contacto.php" method="POST">
+                    <label for="nombre_contacto">Nombre *</label>
+                    <input type="text" id="nombre_contacto" name="nombre_contacto" required>
+
+                    <label for="correo_contacto">Correo Electrónico *</label>
+                    <input type="email" id="correo_contacto" name="correo_contacto" required>
+
+                    <label for="telefono_contacto">Número de teléfono</label>
+                    <input type="tel" id="telefono_contacto" maxlength="9" name="telefono_contacto">
+
+                    <label for="mensaje_contacto">Déjanos tu consulta *</label>
+                    <textarea id="mensaje_contacto" name="mensaje_contacto" rows="5" required></textarea>
+
+                    <div class="checkboxes_contacto">
+                        <label>
+                            <input type="checkbox" name="terminos_contacto" required>
+                            He leído y acepto los <a href="#">Términos y Condiciones</a> y la <a href="#">Política de Protección de Datos Personales</a> *
+                        </label>
+                        <label>
+                            <input type="checkbox" name="publicidad_contacto">
+                            He leído y acepto el envío de comunicaciones según la <a href="#">Política de Publicidad y Promociones</a>.
+                        </label>
+                    </div>
+
+                    <button class="button-enviar" type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <h2>LOS PASTELES DE ARALI</h2>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h4>Sobre Nosotros</h4>
+                    <ul>
+                        <li><a href="#">Mision</a></li>
+                        <li><a href="#">Vision</a></li>
+                        <li><a href="#">Historia</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categorías</h4>
+                    <ul>
+                        <li><a href="#">Perfumes</a></li>
+                        <li><a href="#">Tratamiento</a></li>
+                        <li><a href="#">Maquillaje</a></li>
+                        <li><a href="#">Accesorios</a></li>
+                        <li><a href="#">Capilar profesional</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Servicio al Cliente</h4>
+                    <ul>
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Ventas corporativas</a></li>
+                        <li><a href="#">Libro de reclamaciones</a></li>
+                        <li><a href="#">Rastreo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Términos y Condiciones</h4>
+                    <ul>
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#">Políticas de protección de datos personales</a></li>
+                        <li><a href="#">Políticas de publicidad y promociones</a></li>
+                        <li><a href="#">Condiciones de Promociones</a></li>
+                        <li><a href="#">Cambios y devoluciones</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Métodos de Pago</h4>
+                    <div class="payment-icons">
+                        <img src="img/visa.png" alt="Visa">
+                        <img src="img/card.png" alt="Mastercard">
+                        <img src="img/americanexpress.png" alt="American Express">
+                        <img src="img/dinersclub.png" alt="Diners Club">
+                    </div>
+                    <h4>Síguenos en</h4>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=61566033517769" target="_blank"><img src="img/facebook.png" alt="Facebook"></a>
+                        <a href="https://www.instagram.com/aralisweetparadise/" target="_blank"><img src="img/instagram.png" alt="Instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>PASTELES ARALI S.A. - RUC 20101031773</p>
+                <p>&copy; 2024 Pasteles Perú. Derechos Reservados.</p>
+            </div>
+        </footer>
+    </body>
+</html>
